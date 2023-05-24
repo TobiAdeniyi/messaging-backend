@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const { UserRouter, GroupRouter } = require('routes');
 
 // add middleware
 app.use(express.json());
@@ -19,6 +20,16 @@ app.get('/', (req, res, next) => {
     next(error)
   }
 });
+
+/**
+ * Get all User routes
+ */
+app.use('/users', UserRouter);
+
+/**
+ * Get all Group routes
+ */
+app.use('/groups', GroupRouter);
 
 
 module.exports = app;
