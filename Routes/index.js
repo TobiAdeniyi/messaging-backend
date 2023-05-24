@@ -1,4 +1,4 @@
-const userRouter = require("./User.routes");
-const groupRouter = require("./Group.routes");
+const UserRouter = require("./User.routes");
+const GroupRouter = require("./Group.routes");
 
-module.exports = { userRouter, groupRouter };
+module.exports = { UserRouter, GroupRouter };
