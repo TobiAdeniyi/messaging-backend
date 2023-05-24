@@ -1,0 +1,18 @@
+# javascript gitignore file
+db/db.sqlite
+
+# dotenv environment variable files
+.env
+
+# Dependency directories
+node_modules/
+
+# System Files
+.DS_Store
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
