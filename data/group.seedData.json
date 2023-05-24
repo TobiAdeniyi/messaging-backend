@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Group 1",
+      "description": "This is the first group",
+      "users": [
+        {
+          "username": "user1",
+          "email": "user1@example.com"
+        },
+        {
+          "username": "user2",
+          "email": "user2@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Group 2",
+      "description": "This is the second group",
+      "users": [
+        {
+          "username": "user2",
+          "email": "user2@example.com"
+        },
+        {
+          "username": "user3",
+          "email": "user3@example.com"
+        },
+        {
+          "username": "user4",
+          "email": "user4@example.com"
+        }
+      ]
+    },
+    {
+      "name": "Group 3",
+      "description": "This is the third group",
+      "users": [
+        {
+          "username": "user1",
+          "email": "user1@example.com"
+        },
+        {
+          "username": "user4",
+          "email": "user4@example.com"
+        },
+        {
+          "username": "user5",
+          "email": "user5@example.com"
+        }
+      ]
+    }
+  ]
+  
