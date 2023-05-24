@@ -31,8 +31,8 @@ class Group extends Model {
     this.admin = userId;
   }
 
-  addMembers(userId) {
-    if (!User.findByPk(userId)) {
+  async addMembers(userId) {
+    if (!(await User.findByPk(userId))) {
       throw new Error("User not found");
     }
 
