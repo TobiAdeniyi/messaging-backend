@@ -5,7 +5,7 @@ const Group = require("../db");
 // get all groups for a user
 groupRouter.get("/", async (req, res) => {
   try {
-    const userId = req.user.id;i
+    const userId = req.user.id;
     const groups = await Group.findAll({ where: { userId } });
     res.status(200).json(groups);
   } catch (err) {
